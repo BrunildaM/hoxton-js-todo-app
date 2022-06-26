@@ -83,6 +83,8 @@ function render(){
 
     }
 
-    document.body.append(todoList);
+    document.body.append(todoListUncompleted, todoListCompleted);
 
 }
+
+render()
